@@ -22,9 +22,6 @@ dependencies = [
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.poetry]
-packages = [{ include = "klin_university", from = "src" }]
-
 [tool.flake8]
 exclude = [
     "**/tests/",
